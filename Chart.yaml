@@ -1,4 +1,7 @@
+---
+# A YAML file containing information about the chart
 apiVersion: v2
 name: DemoApp
 description: A Helm chart for Kubernetes
 version: 2.0.0
+icon: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
