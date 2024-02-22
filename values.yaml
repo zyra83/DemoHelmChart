@@ -9,5 +9,5 @@ service:
 ingress:
   host: <fqdn-de-lingress>
 colorSecretName: "color-secret"
-color-secret: "color-pas-secret"
+color: "color-pas-secret"
 appConfigName: "app-config"
