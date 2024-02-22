@@ -6,6 +6,8 @@ image:
 service:
   type: ClusterIP
   port: 80
+ingress:
+  host: <fqdn-de-lingress>
 colorSecretName: "color-secret"
 color: "color-pas-secret"
 appConfigName: "app-config"

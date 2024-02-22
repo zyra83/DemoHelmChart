@@ -5,7 +5,7 @@ metadata:
   name: {{ .Release.Name }}
 spec:
   rules:
-  - host: <your-domain>
+  - host: {{ .Values.ingress.host }}
     http:
       paths:
       - pathType: Prefix
