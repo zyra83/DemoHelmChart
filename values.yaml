@@ -1,10 +1,11 @@
 # values.yaml
 replicaCount: 1
 image:
-  repository:  989988/demoapp
+  repository: <your-docker-image>
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
   port: 80
 colorSecretName: "color-secret"
+color: "color-pas-secret"
 appConfigName: "app-config"
